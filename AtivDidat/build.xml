@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ====================================================================== 
+     29/09/2008 12:50:29                                                        
+
+     project    
+     Após instalar e configurar o ANT (http://ant.apache.org/manual/index.html), basta digitar ANT na linha
+     de comando
+                   
+     USER                                                                
+     ====================================================================== -->
+<project name="project" default="default">
+    <description>
+            description
+    </description>
+	<property name="src" location="src"/>
+	<property name="bin" location="bin"/>
+    <!-- ================================= 
+          target: default              
+         ================================= -->
+    <target name="default" depends="depends" description="description">
+    	<javac srcdir="${src}" destdir="${bin}"/>
+    </target>
+
+    <!-- - - - - - - - - - - - - - - - - - 
+          target: depends                      
+         - - - - - - - - - - - - - - - - - -->
+    <target name="depends">
+    </target>
+
+</project>
