@@ -13,6 +13,6 @@ public class Exemplo1 {
 		carro.comissao=10;
 		//imprime comissão - alterei		
 		System.out.println("comissão é: "+carro.calculaComissao());
-		System.out.println("versão 3");
+		System.out.println("versão 4 - pra pushar");
 	}
 }
