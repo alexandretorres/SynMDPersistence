@@ -11,8 +11,8 @@ public class Exemplo1 {
 		//atribui valor e comissão
 		carro.valor=45199.00;
 		carro.comissao=10;
-		//imprime comissão
-		System.out.println("comissão: "+carro.calculaComissao());
+		//imprime comissão - alterei		
+		System.out.println("comissão é: "+carro.calculaComissao());
 		
 	}
 }
